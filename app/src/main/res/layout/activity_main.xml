@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/farrel"></ImageView>
+
+
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farrel Nur Varian"
+            android:textSize="32sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:text="Data Diri : "
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            >
+        </TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            >
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Nama Lengkap : "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Farrel Nur Varian"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Tempat, Tanggal Lahir : "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Malang, 21-07-2006"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Jenis Kelamin : "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Laki-Laki"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Kewarga Negaraan: "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Indonesia"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Agama : "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Islam"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Alamat : "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="Jln.Lesanpuro No.22, Sawojajar"
+                    >
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                >
+                <TextView
+                    style="@style/JudulSpec"
+                    android:text="Sekolah: "
+                    >
+                </TextView>
+                <TextView
+                    style="@style/IsiSpec"
+                    android:text="SMK Telkom Malang"
+                    >
+                </TextView>
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</ScrollView>
